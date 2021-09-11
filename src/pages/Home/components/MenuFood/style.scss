@@ -13,10 +13,12 @@
     border-radius: 10px;
     cursor: pointer;
     transition: all 0.25s ease-in-out 0s;
+    color: rgb(33, 33, 33);
     border: 2px solid rgb(33, 33, 33);
     &:hover {
       transform: translateY(-5px);
       box-shadow: (0 0 0 / 8%) 0px 2px 4px;
+      color: rgb(0, 158, 127);
     }
     .img {
       padding: 20px;
@@ -25,7 +27,6 @@
       }
     }
     .title {
-      color: rgb(33, 33, 33);
       font-size: 15px;
       font-weight: bold;
     }

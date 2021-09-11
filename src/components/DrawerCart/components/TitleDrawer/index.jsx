@@ -11,12 +11,12 @@ import "./style.scss";
  */
 const TitleDrawer = () => {
   const {
-    cartReducer: { countFood }
+    cartReducer: { listCartFood }
   } = useStore("Common");
   return (
     <div className="title-drawer-wrapper">
       <ShoppingCartOutlined style={{fontSize: 25}} />
-      <div style={{marginLeft: 15}}>{`${countFood} Item`}</div>
+      <div style={{marginLeft: 15}}>{`${listCartFood.length} Item`}</div>
     </div>
   );
 };

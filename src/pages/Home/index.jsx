@@ -8,10 +8,10 @@ import "./style.scss";
 const Home = () => (
   <div className="home-wrapper">
     <div className="title">
-      <h2>Get Your Items Delivered</h2>
+      <h2>Groceries Delivered in 90 Minute</h2>
       <p>
-        Get your favorite items baked and delivered to your doorsteps at
-        any time
+        Get your healthy foods & snacks delivered at your doorsteps all day
+        everyday
       </p>
     </div>
     <MenuFood />
