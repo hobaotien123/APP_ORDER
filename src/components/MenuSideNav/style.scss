@@ -1,0 +1,49 @@
+.menu-side-nav-wrapper {
+  position: fixed;
+  top: 20%;
+  z-index: 999999999999999999999999999;
+  .item-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: -150px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 200px;
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(0, 158, 127);
+    border-radius: 0 5px 5px 0;
+    background-color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    img {
+      width: 25px;
+      height: 25px;
+    }
+  }
+
+  .item-menu:hover {
+    left: 0;
+  }
+
+  #about1 {
+    top: 20px;
+  }
+
+  #about2 {
+    top: 80px;
+  }
+
+  #about3 {
+    top: 140px;
+  }
+
+  #about4 {
+    top: 200px;
+  }
+  #about5 {
+    top: 260px;
+  }
+}

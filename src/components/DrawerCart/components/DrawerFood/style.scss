@@ -1,0 +1,44 @@
+.drawer-food-wrapper {
+  .food {
+    display: grid;
+    grid-template-columns: 8% 25% auto 12% 3%;
+    align-items: center;
+    column-gap: 20px;
+    height: 140px;
+    border-bottom: 1px solid rgb(247, 247, 247);
+    .btn-cart {
+      text-align: center;
+      font-size: 15px;
+      font-weight: bold;
+      background-color: rgb(247, 247, 247);
+      color: rgb(119, 121, 140);
+      cursor: pointer;
+      border-radius: 10%;
+      div {
+        margin: 6px 0px;
+      }
+    }
+    .img {
+      img {
+        width: 100%;
+      }
+    }
+    .info-food {
+      .name {
+        color: #000;
+        font-size: 17px;
+        font-weight: bold;
+      }
+      .price {
+        color: rgb(0, 158, 127);
+        font-size: 17px;
+        font-weight: bold;
+        margin: 15px 0px;
+      }
+    }
+    .all-price {  
+      color: #000;
+      font-weight: bold;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.menu-food-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 30px;
+  width: 1000px;
+  margin-top: 50px;
+  .item-menu-food {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.25s ease-in-out 0s;
+    border: 2px solid rgb(33, 33, 33);
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: (0 0 0 / 8%) 0px 2px 4px;
+    }
+    .img {
+      padding: 20px;
+      img {
+        width: 100%;
+      }
+    }
+    .title {
+      color: rgb(33, 33, 33);
+      font-size: 15px;
+      font-weight: bold;
+    }
+  }
+}

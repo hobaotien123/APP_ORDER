@@ -1,0 +1,34 @@
+// No CSS
+.home-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  .title {
+    h2 {
+      font-size: 45px;
+      font-weight: bold;
+      color: rgb(13, 17, 54);
+    }
+    p {
+      font-size: 16px;
+      color: rgb(119, 121, 140);
+    }
+  }
+  .btn-show-wrapper {
+    width: 300px;
+    padding: 20px 0px;
+    border: 4px solid #fff;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    transition: all 0.25s ease-in-out 0s;
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: (0 0 0 / 8%) 0px 2px 4px;
+    }
+  }
+}
