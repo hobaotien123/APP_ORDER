@@ -16,7 +16,7 @@ const Foods = () => {
   const foods = dataFood.filter(food => food.idFood === router.location.state.id);
   return foods
     ? foods?.map(data => (
-        <div className="foods-wrapper">
+        <div key={data.id} className="foods-wrapper">
           <div className="image-food">
             <img src={data.image} alt="" />
           </div>

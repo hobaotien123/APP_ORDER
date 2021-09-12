@@ -18,6 +18,7 @@ const MenuSideNav = () => {
       <div className="menu-side-nav-wrapper">
         {dataCategory.map(item => (
           <div
+          key={item.id}
             onClick={() => {
               router.push({
                 pathname: CONSTANTS.ROUTERS.ORDER_FOOD,

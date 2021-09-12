@@ -98,140 +98,140 @@ export const dataFood = [
     image: "/img/10.jpg"
   },
   {
-    id: 1,
+    id: 11,
     name: "Meats & Fish",
     idFood: 2,
     price: Math.floor(Math.random() * 90 + 10),
     image: "/img/meat1.jpg"
   },
   {
-    id: 2,
+    id: 12,
     name: "Meats & Fish",
     idFood: 2,
     price: Math.floor(Math.random() * 90 + 10),
     image: "/img/meat2.jpg"
   },
   {
-    id: 3,
+    id: 13,
     name: "Meats & Fish",
     idFood: 2,
     price: Math.floor(Math.random() * 90 + 10),
     image: "/img/meat3.jpg"
   },
   {
-    id: 4,
+    id: 14,
     name: "Meats & Fish",
     idFood: 2,
     price: Math.floor(Math.random() * 90 + 10),
     image: "/img/meat4.jpg"
   },
   {
-    id: 5,
+    id: 15,
     name: "Meats & Fish",
     idFood: 2,
     price: Math.floor(Math.random() * 90 + 10),
     image: "/img/meat5.jpg"
   },
   {
-    id: 6,
+    id: 16,
     name: "Meats & Fish",
     idFood: 2,
     price: Math.floor(Math.random() * 90 + 10),
     image: "/img/meat6.jpg"
   },
   {
-    id: 7,
+    id: 17,
     name: "Meats & Fish",
     idFood: 2,
     price: Math.floor(Math.random() * 90 + 10),
     image: "/img/meat7.jpg"
   },
   {
-    id: 8,
+    id: 18,
     name: "Meats & Fish",
     idFood: 2,
     price: Math.floor(Math.random() * 90 + 10),
     image: "/img/meat8.jpg"
   },
   {
-    id: 9,
+    id: 19,
     name: "Meats & Fish",
     idFood: 2,
     price: Math.floor(Math.random() * 90 + 10),
     image: "/img/meat9.jpg"
   },
   {
-    id: 10,
+    id: 20,
     name: "Meats & Fish",
     idFood: 2,
     price: Math.floor(Math.random() * 90 + 10),
     image: "/img/meat10.jpg"
   },
   {
-    id: 1,
+    id: 21,
     name: "Cakes & Snakes",
     idFood: 3,
     price: Math.floor(Math.random() * 90 + 10),
     image: "/img/snake1.jpg"
   },
   {
-    id: 2,
+    id: 22,
     name: "Cakes & Snakes",
     idFood: 3,
     price: Math.floor(Math.random() * 90 + 10),
     image: "/img/snake2.jpg"
   },
   {
-    id: 3,
+    id: 23,
     name: "Cakes & Snakes",
     idFood: 3,
     price: Math.floor(Math.random() * 90 + 10),
     image: "/img/snake3.jpg"
   },
   {
-    id: 4,
+    id: 24,
     name: "Cakes & Snakes",
     idFood: 3,
     price: Math.floor(Math.random() * 90 + 10),
     image: "/img/snake4.jpg"
   },
   {
-    id: 5,
+    id: 25,
     name: "Cakes & Snakes",
     idFood: 3,
     price: Math.floor(Math.random() * 90 + 10),
     image: "/img/snake5.jpg"
   },
   {
-    id: 6,
+    id: 26,
     name: "Cakes & Snakes",
     idFood: 3,
     price: Math.floor(Math.random() * 90 + 10),
     image: "/img/snake6.jpg"
   },
   {
-    id: 7,
+    id: 27,
     name: "Cakes & Snakes",
     idFood: 3,
     price: Math.floor(Math.random() * 90 + 10),
     image: "/img/snake7.jpg"
   },
   {
-    id: 8,
+    id: 28,
     name: "Cakes & Snakes",
     idFood: 3,
     price: Math.floor(Math.random() * 90 + 10),
     image: "/img/snake8.jpg"
   },
   {
-    id: 9,
+    id: 29,
     name: "Cakes & Snakes",
     idFood: 3,
     price: Math.floor(Math.random() * 90 + 10),
     image: "/img/snake9.jpg"
   },
   {
-    id: 10,
+    id: 30,
     name: "Cakes & Snakes",
     idFood: 3,
     price: Math.floor(Math.random() * 90 + 10),
@@ -239,126 +239,126 @@ export const dataFood = [
   },
 
   {
-    id: 1,
+    id: 31,
     name: "Breakfash",
     idFood: 4,
     price: Math.floor(Math.random() * 90 + 10),
     image: "/img/breakfast1.png"
   },
   {
-    id: 2,
+    id: 32,
     name: "Breakfash",
     idFood: 4,
     price: Math.floor(Math.random() * 90 + 10),
     image: "/img/breakfast2.png"
   },
   {
-    id: 3,
+    id: 33,
     name: "Breakfash",
     idFood: 4,
     price: Math.floor(Math.random() * 90 + 10),
     image: "/img/breakfast3.png"
   },
   {
-    id: 4,
+    id: 34,
     name: "Breakfash",
     idFood: 4,
     price: Math.floor(Math.random() * 90 + 10),
     image: "/img/breakfast4.png"
   },
   {
-    id: 5,
+    id: 35,
     name: "Breakfash",
     idFood: 4,
     price: Math.floor(Math.random() * 90 + 10),
     image: "/img/breakfast5.png"
   },
   {
-    id: 6,
+    id: 36,
     name: "Breakfash",
     idFood: 4,
     price: Math.floor(Math.random() * 90 + 10),
     image: "/img/breakfast6.png"
   },
   {
-    id: 7,
+    id: 37,
     name: "Breakfash",
     idFood: 4,
     price: Math.floor(Math.random() * 90 + 10),
     image: "/img/breakfast7.png"
   },
   {
-    id: 8,
+    id: 38,
     name: "Breakfash",
     idFood: 4,
     price: Math.floor(Math.random() * 90 + 10),
     image: "/img/breakfast8.png"
   },
   {
-    id: 9,
+    id: 39,
     name: "Breakfash",
     idFood: 4,
     price: Math.floor(Math.random() * 90 + 10),
     image: "/img/breakfast9.png"
   },
   {
-    id: 10,
+    id: 40,
     name: "Breakfash",
     idFood: 4,
     price: Math.floor(Math.random() * 90 + 10),
     image: "/img/breakfast10.png"
   },
   {
-    id: 1,
+    id: 41,
     name: "Coffee & Milk",
     idFood: 5,
     price: Math.floor(Math.random() * 90 + 10),
     image: "/img/cofff1.jpg"
   },
   {
-    id: 2,
+    id: 42,
     name: "Coffee & Milk",
     idFood: 5,
     price: Math.floor(Math.random() * 90 + 10),
     image: "/img/cofff2.jpg"
   },
   {
-    id: 3,
+    id: 43,
     name: "Coffee & Milk",
     idFood: 5,
     price: Math.floor(Math.random() * 90 + 10),
     image: "/img/cofff3.jpg"
   },
   {
-    id: 4,
+    id: 44,
     name: "Coffee & Milk",
     idFood: 5,
     price: Math.floor(Math.random() * 90 + 10),
     image: "/img/cofff4.jpg"
   },
   {
-    id: 5,
+    id: 45,
     name: "Coffee & Milk",
     idFood: 5,
     price: Math.floor(Math.random() * 90 + 10),
     image: "/img/cofff5.jpg"
   },
   {
-    id: 6,
+    id: 46,
     name: "Coffee & Milk",
     idFood: 5,
     price: Math.floor(Math.random() * 90 + 10),
     image: "/img/cofff6.jpg"
   },
   {
-    id: 7,
+    id: 47,
     name: "Coffee & Milk",
     idFood: 5,
     price: Math.floor(Math.random() * 90 + 10),
     image: "/img/cofff7.jpg"
   },
   {
-    id: 8,
+    id: 48,
     name: "Coffee & Milk",
     idFood: 5,
     price: Math.floor(Math.random() * 90 + 10),

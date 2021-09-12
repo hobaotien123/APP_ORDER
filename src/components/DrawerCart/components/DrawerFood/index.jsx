@@ -40,7 +40,7 @@ const DrawerFood = () => {
         payload: {
           data: {
             ...food,
-            countFood: food.countFood - 1 || 0,
+            countFood: food.countFood - 1,
             priceFood: food.price
           }
         }
@@ -60,39 +60,43 @@ const DrawerFood = () => {
     );
   };
 
-  return listCartFood.map(food => (
-    <div key={food.id} className="drawer-food-wrapper">
-      <div className="food">
-        <div className="btn-cart">
-          <div
-            onClick={() => {
-              handleUpdateCart(food);
-            }}
-          >
-            +
+  return (
+    <>
+      {listCartFood.map(food => (
+        <div key={food.id + food.idFood} className="drawer-food-wrapper">
+          <div className="food">
+            <div className="btn-cart">
+              <div
+                onClick={() => {
+                  handleUpdateCart(food);
+                }}
+              >
+                +
+              </div>
+              <div>{food.countFood}</div>
+              <div onClick={() => handleRemoveCart(food)}>-</div>
+            </div>
+            <div className="img">
+              <img src={food.image} alt="/img/snake1.jpg" />
+            </div>
+            <div className="info-food">
+              <div className="name">{food.name}</div>
+              <div className="price">{`$${food.price}`}</div>
+              <div className="count">{`1 x ${food.countFood}`}</div>
+            </div>
+            <div className="all-price">{`$${food.countFood * food.price}`}</div>
+            <div className="remove-food">
+              <CloseOutlined
+                onClick={() => {
+                  handleDeleteItemCart(food);
+                }}
+              />
+            </div>
           </div>
-          <div>{food.countFood}</div>
-          <div onClick={() => handleRemoveCart(food)}>-</div>
         </div>
-        <div className="img">
-          <img src={food.image} alt="/img/snake1.jpg" />
-        </div>
-        <div className="info-food">
-          <div className="name">{food.name}</div>
-          <div className="price">{`$${food.price}`}</div>
-          <div className="count">{`1 x ${food.countFood}`}</div>
-        </div>
-        <div className="all-price">{`$${food.countFood * food.price}`}</div>
-        <div className="remove-food">
-          <CloseOutlined
-            onClick={() => {
-              handleDeleteItemCart(food);
-            }}
-          />
-        </div>
-      </div>
-    </div>
-  ));
+      ))}
+    </>
+  );
 };
 
 export default DrawerFood;
